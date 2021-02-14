@@ -1,0 +1,58 @@
+/*paleta de color*/
+/*
+https://paletton.com/#uid=70c0u0kuXEejdKRoOGBDotOEQn7
+#FF4408 naranja
+#FF9008 moztaza
+#107DBD azul
+#07C966 verdoso
+*/
+/*variable de los colores*/
+:root {
+  --blanco: #ffffff;
+  --naranja: #ff4408;
+  --mostaza: #ff9008;
+  --azul: #107dbd;
+  --verdoso: #07c966;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.8 rem;
+  color: var(--azul);
+  font-family: "Krub", sans-serif;
+  font-weight: 700;
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-bg {
+  background-color: var(--verdoso);
+}
+.navegacion-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navegacion-principal a {
+  /* background: var(--mostaza); */
+  padding: 1rem;
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navegacion-principal a:hover {
+  background-color: var(--blanco);
+  color: var(--azul);
+}
